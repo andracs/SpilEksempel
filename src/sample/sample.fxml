@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="238.0" prefWidth="442.0">
+         <children>
+            <TextField fx:id="a" layoutX="60.0" layoutY="47.0" />
+            <TextField fx:id="b" layoutX="60.0" layoutY="92.0" />
+            <TextField fx:id="c" layoutX="60.0" layoutY="140.0" />
+            <Button fx:id="knap" layoutX="60.0" layoutY="183.0" mnemonicParsing="false" onAction="#save" text="Gem" />
+            <Button fx:id="knap2" layoutX="60.0" layoutY="203.0" mnemonicParsing="false" onAction="#load" text="Indlæs" />
+
+         </children>
+      </Pane>
+   </children>
+</GridPane>
